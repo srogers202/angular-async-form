@@ -34,7 +34,6 @@
   "main": "lib/angular-async-form.js",
   "name": "angular-async-form",
   "scripts": {
-    "preinstall": "bower install",
     "cover": "gulp clean && gulp test && cat ./coverage/*/lcov.info | coveralls -v && rm -rf coverage",
     "start": "node ./example/app.js",
     "test": "gulp test"
